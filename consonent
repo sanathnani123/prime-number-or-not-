@@ -1,0 +1,5 @@
+a=str(input("enter alphabet:"))
+if a in "a.e,i,ou":
+    print("vowel")
+else:
+    print("consonent")
