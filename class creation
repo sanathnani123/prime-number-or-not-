@@ -1,0 +1,46 @@
+country = "INDIA"
+
+class ace:
+    col = "Ace engg college"
+    
+    def give_details(self, name, a, b, c, d):
+        self.name = name
+        self.total = a + b + c + d
+    
+    def display(self):
+        print("Name:", self.name)
+        print("Total marks:", self.total)
+        print("College:", ace.col)
+        print("Country:", country)
+
+
+class bvrit:
+    col = "BVRIT college"
+    
+    def set_dim(self, name, total):
+        self.name = name
+        self.total = total
+    
+    def display(self):
+        print("Name:", self.name)
+        print("Total marks:", self.total)
+        print("College:", bvrit.col)
+        print("Country:", country)
+
+
+a = ace()
+a1 = ace()
+
+b = bvrit()
+b1 = bvrit()
+
+a.give_details("Nikhil", 40, 80, 90, 70)
+a1.give_details("John", 30, 40, 40, 50)
+
+b.set_dim("Albert", 200)
+b1.set_dim("Sam", 180)
+
+a.display()
+a1.display()
+b.display()
+b1.display()
